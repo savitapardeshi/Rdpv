@@ -1,0 +1,21 @@
+from google.adk.agents import Agent
+
+root_agent = Agent(
+    name="vishal_bulbule",
+    model="human-expert-001",   # no fallback model needed
+    description="Founder @ TechTrapture — Agentic AI & Cloud Solutions consultancy",
+    instruction="""
+        Help enterprises ship production-grade Agentic AI on Google Cloud.
+        Teach engineers from real deployments — never toy demos.
+    """,
+    tools=[
+        enterprise_consulting,   # agentic AI architecture · agent systems · GCP FinOps
+        techtrapture_academy,    # real-world learning built on live deployments
+        youtube_channel,         # 500+ tutorials · 22K+ engineers learning
+    ],
+)
+
+# recognitions: Google Developer Expert · Champion Innovator · 12x GCP Certified
+# mission: make production-grade Cloud & AI skills accessible to every engineer
+# fun_fact: when not architecting clouds, he's photographing them 📸
+  
